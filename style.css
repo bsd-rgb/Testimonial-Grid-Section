@@ -1,3 +1,7 @@
+/****************/
+/* GENERAL */
+/****************/
+
 * {
   margin: 0;
   padding: 0;
@@ -14,4 +18,126 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.grid-4--cols {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3.6rem;
+}
+
+.flex--column {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+/*
+******************************* 
+    TESTIMONIAL SECTION
+*******************************
+*/
+.section-testimonial {
+  margin: 12rem auto;
+  max-width: 125rem;
+}
+
+.testimonials {
+  padding: 6.4rem;
+}
+
+.testimonial {
+  padding: 2.4rem 3.6rem;
+  border-radius: 9px;
+  position: relative;
+  box-shadow: 2.6rem 3.5rem 6.5rem rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+.testimonial-img {
+  border-radius: 50%;
+  border: 3px solid #a775f1;
+  width: 3rem;
+  height: 3rem;
+}
+
+.second .testimonial-img,
+.third .testimonial-img,
+.fourth .testimonial-img {
+  border: none;
+}
+
+.first {
+  grid-column: span 2;
+  background-color: #733fc8;
+  color: #fff;
+}
+
+.second {
+  background-color: #48556a;
+  color: #fff;
+}
+
+.third {
+  color: #48556a;
+  grid-row: span 2;
+  background-color: #fff;
+}
+
+.fourth {
+  color: #48556a;
+  background-color: #fff;
+}
+.fifth {
+  grid-column: span 2;
+  background-color: #19202d;
+  color: #cfcfcf;
+}
+
+/* .bg--quote {
+  background-image: url(/images/bg-pattern-quotation.svg);
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: contain;
+} */
+
+/* 1219 x 676 */
+
+.bg--quote {
+  position: absolute;
+  top: 0;
+  right: 6rem;
+  z-index: -1;
+}
+
+.author-container {
+  display: flex;
+  gap: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-name {
+  font-size: 1.3rem;
+}
+
+.testimonial-tag {
+  font-size: 1.1rem;
+}
+
+.testimonial-text--summary {
+  font-size: 2rem;
+  line-height: 1.2;
+  letter-spacing: 0;
+  font-weight: 550;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-text {
+  font-size: 1.3rem;
+  line-height: 1.4;
+  letter-spacing: 0;
 }

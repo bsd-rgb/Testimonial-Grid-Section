@@ -26,7 +26,7 @@
 /* MOBILE */
 @media (max-width: 44em) {
   .section-testimonial {
-    max-width: 43rem;
+    max-width: 40rem;
   }
 
   .grid {

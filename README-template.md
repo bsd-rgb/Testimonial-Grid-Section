@@ -39,7 +39,7 @@ Mobile:
 ### Links
 
 - [Solution URL](https://github.com/bsd-rgb/Testimonial-Grid-Section)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://bsd-rgb.github.io/Testimonial-Grid-Section/)
 
 ## My process
 
